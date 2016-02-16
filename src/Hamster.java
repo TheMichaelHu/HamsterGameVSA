@@ -254,54 +254,52 @@ public class Hamster extends Actor {
         int rand = this.randomRange(1, 11);
         switch (rand) {
         case 1:
-            this.name = "Amy";
-            this.description = "tiny";
-            this.scale = .4;
+            this.name = "Anthony";
+            this.description = "your mom";
             break;
         case 2:
-            this.name = "Brian";
-            this.description = "confident";
-            break;
-        case 3:
-            this.name = "Anthony";
-            this.description = "best";
-            this.bodyColor = Color.CYAN;
-            this.earColor = Color.BLUE;
-            break;
-        case 4:
             this.name = "Dinh";
             this.description = "cute";
             break;
-        case 5:
-            this.name = "Thao";
-            this.description = "sherlocked";
-            break;
-        case 6:
-            this.name = "Ann";
-            this.description = "artsy";
-            break;
-        case 7:
-            this.name = "Michael";
-            this.description = "blond";
+        case 3:
+        	this.name = "Michael";
+            this.description = "blonde";
             this.bodyColor = Color.ORANGE;
             this.earColor = Color.YELLOW;
             break;
-        case 8:
-            this.name = "Christina";
-            this.description = "bubbly";
-            break;
-        case 9:
-            this.name = "Kimberly";
-            this.description = "tinier";
+        case 4:
+        	this.name = "Kimberly";
+            this.description = "tiniest";
             this.scale = .3;
             break;
+        case 5:
+            this.name = "Matt";
+            this.description = "Mr. VSA";
+            break;
+        case 6:
+            this.name = "Ari";
+            this.description = "caw caw motherfucking";
+            break;
+        case 7:
+            this.name = "Kristine";
+            this.description = "___";
+            break;
+        case 8:
+            this.name = "Jackie";
+            this.description = "___";
+            break;
+        case 9:
+            this.name = "Annvie";
+            this.description = "___";
+            this.scale = .4;
+            break;
         case 10:
-            this.name = "Annie";
-            this.description = "vegetarian";
+            this.name = "Crystal";
+            this.description = "Rheely freshy";
             break;
         default:
-            this.name = "Jackie";
-            this.description = "freshiest";
+            this.name = "Hilary";
+            this.description = "___";
             break;
         }
     }
